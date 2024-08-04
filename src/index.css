@@ -31,6 +31,11 @@ body {
 }
 
 h1 {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
   font-size: 3.2em;
   line-height: 1.1;
 }
