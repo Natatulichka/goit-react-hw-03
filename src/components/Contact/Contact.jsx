@@ -1,7 +1,6 @@
-import React from "react";
 import css from "./Contact.module.css";
 
-export default function Contact({ id, name, number, onDelete }) {
+function Contact({ id, name, number, onDelete }) {
   return (
     <li className={css.contactItem}>
       <div className={css.contactDetails}>
@@ -14,3 +13,4 @@ export default function Contact({ id, name, number, onDelete }) {
     </li>
   );
 }
+export default Contact;
